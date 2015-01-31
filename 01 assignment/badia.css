@@ -30,6 +30,7 @@ h3{
 	color: #333333;
 }
 h4{
+	position:relative;
 	display:block;
 	font-family: "Helvetica";
 	font-size:.8em;
@@ -146,7 +147,30 @@ img {
 	top: 18em;
 	margin-bottom:3em;
 	margin-left:.5em;
+}
+#image {
+	position:absolute;
+	display:block;
+	padding:.2em;
 
 }
+#relative-absolute-position{
+position: relative;
 
+}    .float-left{
+    float: left;
+    }
+
+    .float-right{
+    float: right;
+    }
+
+    .clear{
+    clear:both;
+    }
+
+
+	.float-none{
+	float: none;
+	}
 </style>
