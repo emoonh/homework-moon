@@ -1,0 +1,152 @@
+<style type="text/css">
+
+body{
+	background: #000;
+	
+}
+@font-face{
+	font-family: "Dense-Regular";
+	src: url('Dense-Regular.otf')
+}
+h1{
+	display:inline;
+	padding: 1em;
+	font-family: "Dense-Regular";
+	font-size:1em;
+	color: #4f4f4f;
+}
+h2{
+	display:inline;
+	font-family: "Dense-Regular";
+	font-size:1.3em;
+	color: #ec1c25;
+	margin-left:1.5em;
+	margin-right:.5em;
+}
+h3{
+	display:inline;
+	font-family: "Dense-Regular";
+	font-size:2em;
+	color: #333333;
+}
+h4{
+	display:block;
+	font-family: "Helvetica";
+	font-size:.8em;
+	color: #333333;
+	margin-left:10em;
+	line-height:1.8;
+	width:80%;
+	font-weight:300;
+}
+
+li{
+	display:inline;
+	padding: 1em;
+	font-size:1.8em;
+	font-family: "Dense-Regular";
+}
+p{
+	font-family: "Dense-Regular";
+	font-size:5em;
+	font-weight:500;
+	color: #0b9662;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: #0b9662;;
+}
+a:link, a:active, a:visited { 
+	text-decoration: none; 
+	color: #0b9662;
+}
+a:hover{
+	text-decoration: none; 
+	color: #045d3c;
+}
+#menu {
+	display:block;
+	position:fixed;
+	right:0em;
+	overflow:hidden;
+}
+#badia {
+	position:fixed;
+	display:block;
+	height: 9em;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+#badia2 {
+	position:absolute;
+	display:block;
+	height: 9em;
+	margin-top: 2em;
+	margin-left: 1em;
+}
+#search {
+	height:1em;
+}
+#image {
+        position: absolute; 
+        top: 3.5em; 
+        left: 0; 
+        min-width: 100%;
+	height:85%;
+}
+#image2 {
+        position: absolute; 
+        top: 4em; 
+        right: 5em; 
+	height:40%;
+}
+#phrase {
+	position: absolute;
+	top: 60%;
+	left: 1.5em;
+	padding:1em;
+}
+#copyright {
+	display:inline;
+	position: fixed;
+	bottom:1em;
+	left:5em;
+	color: #4f4f4f;
+	padding:.2em;
+}
+#cp{
+	position:inline;
+	font-family: "Dense-Regular";
+	font-size:1em;
+
+}
+#contact {
+	display:inline;
+	position: fixed;
+	bottom:.5em;
+	right:5em;
+	color: #4f4f4f;
+
+}
+#social {
+	display:inline;
+	position:fixed;
+	bottom:1em;
+	right:50%;
+}
+img {
+	padding:.2em;
+}
+#blog {
+	position:absolute;
+	display:block;
+	float:left;
+	top: 18em;
+	margin-bottom:3em;
+	margin-left:.5em;
+
+}
+
+</style>
