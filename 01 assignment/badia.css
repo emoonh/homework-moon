@@ -186,12 +186,32 @@ img {
 	position:absolute;
 	display:block;
 	padding:.2em;
-
+}
+#image3 {
+	display:block;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	height:20%;
+}
+#foodtitle {
+	float:right;
+	font-size:1.6em;
+	padding:1.2em;
+}
+#steps {
+	font-family: "Helvetica";
+	font-size:.6em;
+	color: #333333;
+	line-height:1.8;
+	font-weight:300;
 }
 #relative-absolute-position{
-	position: relative;
+	position:relative;
+	padding:.2em;
+}
 
-}    .float-left{
+.float-left{
     float: left;
     }
 
