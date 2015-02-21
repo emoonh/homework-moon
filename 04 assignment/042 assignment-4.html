@@ -6,11 +6,11 @@ JAVASCRIPT EXERCISE
 Please perform the following exercises inside this file (unless directed otherwise), adding the task number in a comment above the completed exercise.
 
 01) Using Javascript, add a paragraph of lorem ipsum (get some at lipsum.com, if needed) above the bulleted list at the bottom of the page.
-
 02) Define a variable and give it a value of 'today'. Write the value of the variable on the line that says "<h2>Get involved</h2>" so that it reads "<h2>Get involved today</h2>".
 03) On the line that says "Brackets has many users!", replace "many" (just delete the word) with  a JavaScript snippet that multiples 10,000 by 10,000 and divides the sum by 5 and outputs the result.  
 04) Get the text content of the element with an ID of "extension" and print that content to the console log.
 05) Set the text content of the element with an ID of "qv" to "Quicker Viewer".
+
 06) Create an array of seven pieces of fruit, then print the second and fifth pieces of fruit anywhere in the body of the document. 
 07) Replace the contents of the <h3> tags with a function which takes one argument: the text to go into the <h3> tags. The function must also print the <h3> tags.
 08) In the same function as #7, use a method from the string object to convert the text passed into the function to uppercase.
@@ -40,8 +40,15 @@ Please perform the following exercises inside this file (unless directed otherwi
         <!--
             MADE WITH <3 AND JAVASCRIPT
         -->
-        
-        <p>Brackets has many users!</p>
+<!-- 03 -->        
+        <p>Brackets has 
+		<script> 
+		var number = 10000;
+		var five = 5;
+		var total = ( number * number ) / five;
+		document.write(total);
+		</script> 
+		users!</p>
         </p>
         <p>
             Welcome to Brackets, a modern open-source code editor that understands web design. It's a lightweight, 
@@ -158,6 +165,11 @@ Please perform the following exercises inside this file (unless directed otherwi
         </p>
         
         <h3 id="qv">Quick View</h3>
+<!-- 04 -->		
+		<script>
+		var el = document.getElementById('qv');
+		el.className = "Quick Viewer"
+		</script>
         <p>
             For those of us who haven't yet memorized the color equivalents for HEX or RGB values, Brackets makes
             it quick and easy to see exactly what color is being used. In either CSS or HTML, simply hover over any
@@ -187,13 +199,20 @@ Please perform the following exercises inside this file (unless directed otherwi
         <!--
             LET US KNOW WHAT YOU THINK
         -->
-        <h2>Get involved</h2>
+        <h2>Get involved
+<!-- 01 -->
+		<script> var today;document.write(today);</script></h2>
         <p>
             Brackets is an open-source project. Web developers from around the world are contributing to build 
             a better code editor. Many more are building extensions that expand the capabilities of Brackets.
             Let us know what you think, share your ideas or contribute directly to the project.
         </p>
-	<script src="js/ lorem.js"> </script>
+<!-- 02 -->
+<script>
+document.write( '<h3>'+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	+'</h3>');
+</script>
         <ul>
             <li><a href="http://brackets.io">Brackets.io</a></li>
             <li><a href="http://blog.brackets.io">Brackets Team Blog</a></li>
