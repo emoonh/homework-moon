@@ -1,0 +1,44 @@
+function checkLenth (string, length_to_check){
+	//functions can have return values
+	if (string.length >= length_to_check){
+	return true;
+	}
+	else {
+	return false; 
+	}
+}
+
+
+
+// attach single submit event to the form,
+
+var ourForm = document.getElement();
+ourForm.addEventListener ('submit',validate);
+
+
+function validate () {
+
+	//loop through all of the elements
+	//manually iterating over each element 
+
+	//validate first name
+	var firstname = ..;
+	checkLength (firstname,2);
+	
+	var lastname = ..;
+	checkLength (lastname,2);
+	
+	//message += 'Your last name is too short.';
+	
+	var username = ..;
+	checkLength (username,7);
+	
+	if (! username_length_return_value){
+		message += 'Your last name is too short.';
+		//highlight the given field with a red border, etc. 
+	}
+	
+	alertArea.innerHTML=mesage;
+
+	return false;
+}
