@@ -7,7 +7,7 @@ document.getElementById("submit").onclick = function() {
 	if (ln.value.length <= 2){
 		ln.classList.add("error");
 	}
-	/*
+	/*   email address 
 	var ea = document.getElementsByName("ea")[0];
 	if (ea.value.test(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/)) {
 		ea.classList.add("error");
@@ -21,6 +21,15 @@ document.getElementById("submit").onclick = function() {
 	if (pw.value.length <= 8 || !pw.value.match(/\d+/)){
 		pw.classList.add("error");
 	}		
+    
+    
+/*
+    var rpw = document.getElementsByName("rpw")[0];
+	if (rpw.value.match != pw{
+		rpw.classList.add("error");
+	}		
+*/
+
 	return false;
 };
 
