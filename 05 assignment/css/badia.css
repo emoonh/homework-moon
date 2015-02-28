@@ -302,9 +302,9 @@ img {
 
 @media screen and (max-width: 2560px) {
       	  #menu {
-      		width:80%;
+      		width:100%;
       		float: left;
-		font-size:.2em;
+		font-size:.5em;
       	  }
 	  .badia, .badia2 {
 		width:20%;
