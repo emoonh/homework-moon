@@ -16,7 +16,7 @@ document.getElementById("submit").onclick = function() {
 	var un = document.getElementsByName("un")[0];
 	if (un.value.length <= 7){
 		un.classList.add("error");
-	}		
+	}
 	var pw = document.getElementsByName("pw")[0];
 	if (pw.value.length <= 8 || !pw.value.match(/\d+/)){
 		pw.classList.add("error");
@@ -27,7 +27,7 @@ document.getElementById("submit").onclick = function() {
 
 document.getElementById("reset").onclick = function() {
 	var response = confirm("Are you sure you want to clear the form? All data will be lost.");
-	if (response == true) {
+	if (response === true) {
 		var list = document.getElementsByClassName("field");
 		for (var listIndex = 0; listIndex < list.length; listIndex++) {
 			list[listIndex].value = "";
