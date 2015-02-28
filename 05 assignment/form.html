@@ -3,6 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title> BADIA </title>	
 	<link rel="stylesheet" href="css/badia.css" type="text/css">
+	<script src="js/form.js"></script>
 </head>
 
 <body>
@@ -12,10 +13,10 @@
 	Email Address	  <input type="text" name="ea"><br>
 	Username	  <input type="text" name="un"><br>
 	Password	  <input type="text" name="pw"><br>
-	Re-type Password  <input type="text" name="rtpw"><br>
+	Re-type Password  <input type="text" name="rpw"><br>
 	Favorite Color	  <input type="text" name="fc"><br>
-	  <input type="submit" value="Submit">
-	  <input type="submit" value="Clear">
+	  <input type="submit" onclick="javascript:validate();" value="Submit">
+	  <input type="submit" onclick="javascript:clear();"    value="Clear">
 </form>
 	
 </body>
