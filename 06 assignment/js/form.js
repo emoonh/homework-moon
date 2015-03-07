@@ -1,5 +1,5 @@
-$(document).ready(function() {
-    $("#submit").click(function() {
+$(document).ready(function () {
+    $("#submit").click(function () {
         var failure = false;
 
         var fname = $("input[name=fname]");
@@ -23,12 +23,6 @@ $(document).ready(function() {
             email.addClass("error");
             failure = true;
         }
-
-        if (email.value == ""){
-            alert("Must enter a valid email address");
-            email.focus();
-            return false;
-        }        
         
         var uname = $("input[name=uname]");
 
@@ -69,13 +63,14 @@ $(document).ready(function() {
         if (!failure) {
             document.body.style.backgroundColor = "#" + foundColor;
         }
+        
         return false;
-    });
+   });
 
     $("reset").click(function() {    
         var response = confirm("Are you sure you want to clear? This will clear all of your fields.");
 
-        if (response==true) {
+        if (response) {
             var list = $(".fields");
 
             for (var listIndex = 0; listIndex < list.length; listIndex++) {

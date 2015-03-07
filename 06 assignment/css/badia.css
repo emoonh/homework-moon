@@ -319,6 +319,9 @@ img {
 .error {
 	border: 3px solid red;
 }
+.okay {
+    border: 0px
+}
 form {
     position:relative;
     display:inline;
