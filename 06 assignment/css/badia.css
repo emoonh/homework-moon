@@ -1,17 +1,23 @@
 body{
 	background-color: #FFF;
 }
+html, body {
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
 @font-face{
 	font-family: "Dense-Regular";
 	src: url('font/Dense-Regular.otf')
 }
 h1{
 	display:inline;
-	padding: 1em;
+	padding: 0;
 	font-family: "Dense-Regular";
-	font-size:.8em;
+	font-size:3em;
 	color: #4f4f4f;
-	line-height:.9;
+	line-height:1.2;
 }
 h2{
 	display:inline;
@@ -35,7 +41,6 @@ h4{
 	color: #333333;
 	margin-left:10em;
 	line-height:1.8;
-	width:80%;
 	font-weight:300;
 }
 
@@ -72,6 +77,7 @@ a:hover{
 #menu li a {
 	padding: .3em;
 	list-style-type: none;
+    font-size:1.5em;
 	color: #0b9662;
 	color: rgba(11, 150, 98, 1);
 	webkit-border-radius: 2em;
@@ -106,14 +112,16 @@ a:hover{
 	color:none;
 }
 #image {
-        position: absolute; 
-        left: 0; 
+    position: absolute; 
+    left: 0; 
+    min-width:100%;
+    max-width:100%;
 	top:0;
-        min-width: 100%;
-	height:100%;
+    width:auto;
 	opacity:.70;
 	z-index: -1;
 }
+
 img.image:hover {
     -webkit-transform: scale (1.2) ;
     -moz-transform: scale(1.2) ;
@@ -125,6 +133,26 @@ img.image:hover {
     transition: all .5s ease ;
 
 }
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #image { width:100%; }
+ }
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #image { width:100%; }
+ }
+
+ /* iphone */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #image { max-width: 100%; }
+}
+
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+#image { max-width: 100%; }
+}
+
 
 #phrase {
 	position: absolute;
@@ -266,7 +294,7 @@ img {
 
 @media screen and (max-width: 1334px) {
 	  #menu {
-		width: 80%;
+		width: 100%;
 		float:right;
 	  }
 	  .badia, .badia2 {
@@ -284,7 +312,7 @@ img {
         	float: left;
       	  }
 	  .badia, .badia2 {
-		width:25%;
+		width:100%;
 		float: right;
 	  }
 	  #foodtitle {
@@ -302,7 +330,7 @@ img {
 		font-size:.5em;
       	  }
 	  .badia, .badia2 {
-		width:30%;
+		width:100%;
 		float: right;
 	  }
 	  #foodtitle {
@@ -326,12 +354,18 @@ form {
     position:relative;
     display:inline;
     float:left;
-    width:95%;
+    width:100%;
 	padding:3em;
 	margin-left:auto;
     margin-right:auto;
-    font-size:2.2em;
+    font-size:2em;
     font-family: "Dense-Regular";
     line-height: 1.8;
 }
 
+.user_error_message{
+    background-color:coral;
+}
+.error_field {
+    border:3px solid red;
+}
