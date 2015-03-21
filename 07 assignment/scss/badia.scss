@@ -1,0 +1,58 @@
+
+$badiagreen: #0b9662;
+$badiared: #ec1c25;
+
+$desktop: "screen and (min-width: 1920px) , screen and (min-height: 1080px)";
+$ipad: "screen and (max-width: 1536px) , screen and (max-height: 2048)";
+$iphone: "screen and (max-width: 750px) , screen and (max-height: 1334px)";
+
+body {
+	@media #{$desktop} {
+	  .menu {
+		width: 98%;
+		float: right;
+	  }
+	  .badia, .badia2 {
+		width:100%;
+		float: left;
+	  }
+	  .foodtitle {
+		width:30%;
+		float: right;
+	  }
+	  .steps, .blog {
+		width: 100%;
+	  }
+	}
+
+	@media #{$ipad} {
+      	  .menu {
+      		width: 66.66%;
+      		float: right;
+      	  }
+	  .badia, .badia2 {
+		width:25%;
+		float: left;
+	  }
+	  .steps, .blog {
+		width: 100%;
+	  }
+	}
+
+	@media #{$iphone} {
+      	  .menu {
+      		width: 33.33%;
+      		float: right;
+      	  }
+	  .badia, .badia2 {
+		width:20%;
+		float: left;
+	  }
+	  .steps, .blog {
+		width: 100%;
+	  }
+	}
+}
+.menu {
+	
+}
