@@ -1,0 +1,8 @@
+
++ My apologies for the many issues plaguing the PHPStorm demo. Everything has been smoothed out in a screencast divided into six segments now posted on Slack. If you're looking for additional and more detailed video tutorials, check out the JetBrains YouTube channel playlist [https://www.youtube.com/playlist?list=PLQ176FUIyIUbfeFz-2EbDzwExRlD0Bc-w] and the written documentation [https://www.jetbrains.com/phpstorm/help/phpstorm.html]. Oh, and for keyboard jockeys, PHPStorm has a crazy number of keyboard shortcuts [https://www.jetbrains.com/phpstorm/help/keyboard-shortcuts-and-mouse-reference.html].
+
++ For assignment 7, please add mobile navigation to the website that you created earlier in the semester. To do so, use the jQuery plugin called Shifter [http://formstone.it/components/shifter] or another similar plugin. The purpose of this assignment is to give students practice using jQuery plugins. It is due at the beginning of the next class. Please publish your files to your GitHub homework repository in a subfolder called "07 assignment." This assignment carries a weight of .8.
+
+
++ For those who may be struggling with how to "translate" certain tasks into the language of programmatic thinking, if you have an iDevice I highly recommend downloading an app called "Lightbot - One Hour Coding '14" [https://appsto.re/us/1a8s3.i]. No iDevice? Check out the Flash-based website instead [http://lightbot.com/hocflash.html]. Lightbot is a puzzle game which requires the player to solve the puzzles by applying programmatic concepts such as loops, functions, and so forth. I've played it, and it's both challenging and fun!
+
